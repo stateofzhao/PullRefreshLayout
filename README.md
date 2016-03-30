@@ -1,7 +1,7 @@
 # PullRefreshLayout
 >仿网易新闻5.6 android客户端 下拉刷新控件
 
-####示例：
+####简单使用示例：
 在布局文件中添加：
 ```xml
   <com.diagrams.pullrefreshlayout.AbsListPullRefreshLayout
