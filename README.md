@@ -1,5 +1,6 @@
 # PullRefreshLayout
 >仿网易新闻5.6 android客户端 下拉刷新控件
+由于重写了Touch事件比较顶层的传递方法（`dispatchTouchEvent(@NonNull MotionEvent ev)`），所以极少出现不兼容的情况。即使出现不兼容情况重写`PullRefreshLayout`的`canChildScrollUp(View)`方法也可以很方便的解决，具体如何实现可以参考`AbsListPullRefreshLayout`这个类。
 
 ####简单使用示例：
 在布局文件中添加：
