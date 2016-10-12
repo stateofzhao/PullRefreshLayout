@@ -49,3 +49,5 @@
             }
  });
 ```
+# Dependencies
+- com.nineoldandroids:library:2.4.0
