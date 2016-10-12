@@ -16,7 +16,7 @@
             android:layout_height="100dp"
             android:background="#ff2277" />
         
-        <!-- 要进行下拉刷新的View-->
+        <!-- 要进行下拉刷新的View，此处可以是任何View-->
         <ListView
             android:id="@+id/list"
             android:layout_width="match_parent"
