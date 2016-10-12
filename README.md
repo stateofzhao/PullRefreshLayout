@@ -26,8 +26,8 @@
   </com.diagrams.pullrefreshlayout.PullRefreshLayout>
 ```
 <B>注意：</B>
-1. 被`PullRefreshLayout`包裹的必须有两个`View`，第一个`View`是刷新头`View`，第二个`View`是要下拉刷新的`View`。
-2. 如果发现无法刷新ContentView，那么可以自己重写`PullRefreshLayout`的`canChildScrollUp(View)`方法，来自己确定ContentView何时可以下拉刷新。
+ 1. 被`PullRefreshLayout`包裹的必须有两个`View`，第一个`View`是刷新头`View`，第二个`View`是要下拉刷新的`View`。
+ 2. 如果发现无法刷新ContentView，那么可以自己重写`PullRefreshLayout`的`canChildScrollUp(View)`方法，来自己确定ContentView何时可以下拉刷新。
 
 代码中直接使用即可：
 ```java
