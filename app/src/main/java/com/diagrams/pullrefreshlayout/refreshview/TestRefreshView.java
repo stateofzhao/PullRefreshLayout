@@ -47,12 +47,10 @@ public class TestRefreshView extends TextView implements RefreshViewCallback {
 
 	@Override
 	public void contentViewBeginScroll() {
-
 		sb.delete(0, sb.length());
 		sb.append("===contentViewBeginScroll===\n");
 
 		setText(sb);
-
 	}
 
 	@Override

@@ -274,6 +274,19 @@ public class PullRefreshLayout extends ViewGroup {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
+//        int WidthMode = MeasureSpec.getMode(widthMeasureSpec);
+//        switch (WidthMode){
+//            case MeasureSpec.AT_MOST:
+//                System.out.println("AT_MOST");
+//                break;
+//            case MeasureSpec.EXACTLY:
+//                System.out.println("EXACTLY");
+//                break;
+//            case MeasureSpec.UNSPECIFIED:
+//                System.out.println("UNSPECIFIED");
+//                break;
+//        }
+
         final int selfPaddingLeft = getPaddingLeft();
         final int selfPaddingRight = getPaddingRight();
         final int selfPaddingTop = getPaddingTop();
