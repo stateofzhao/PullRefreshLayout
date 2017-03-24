@@ -514,7 +514,9 @@ public class PullRefreshLayout extends ViewGroup {
                     mStartRefreshOperation = false;
                     mEndRefreshOperation = false;
                 }
-
+                if(mTouchAbortScroller){//此时证明触摸终止了动画，那么此时应该让布局获取到事件
+                    return true;
+                }
                 break;
             case MotionEvent.ACTION_MOVE:
 
